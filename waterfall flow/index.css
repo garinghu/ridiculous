@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+
+#container{
+    width: 100%;
+    background: #e6e6e6;
+}
+#box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#box .colum{
+    flex: 1;
+    box-sizing: border-box;
+    padding:0 10px;
+}
+#box .colum .item{
+    width: 100%;
+    margin-top: 10px;
+}
+#box .colum .item .test{
+    width: 100%;
+    display: block;
+}
